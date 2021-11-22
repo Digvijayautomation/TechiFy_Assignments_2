@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Assignment_2.search_sale_person">
+        <methods>
+          <include name="update_building"/>
+          <include name="Filter_by_city"/>
+          <include name="delete_building"/>
+          <include name="add_building"/>
+          <include name="search_sale_person1"/>
+          <include name="Filter_by_state"/>
+        </methods>
+      </class> <!-- Assignment_2.search_sale_person -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
